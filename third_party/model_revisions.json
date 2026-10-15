@@ -1,0 +1,28 @@
+{
+  "source": "Pinned manuscript protocols and archived model-file provenance",
+  "guards": {
+    "piguard": {
+      "repository": "leolee99/PIGuard",
+      "revision": "dd78b24e330193a22d2293ac66922dd4f982f563"
+    },
+    "wolf": {
+      "repository": "patronus-studio/wolf-defender-prompt-injection",
+      "revision": "a77e7b669f079c3ad7e72e4ad10f3bd173ac4f4d"
+    },
+    "protectai-v2": {
+      "repository": "protectai/deberta-v3-base-prompt-injection-v2",
+      "revision": "90c9989b1a342275dd0d1a95aad283c04e075671"
+    }
+  },
+  "victims": {
+    "3b": {
+      "repository": "Qwen/Qwen2.5-3B-Instruct",
+      "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+    },
+    "1p5b": {
+      "repository": "Qwen/Qwen2.5-1.5B-Instruct",
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    }
+  },
+  "weights_included": false
+}

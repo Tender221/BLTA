@@ -1,0 +1,70 @@
+{
+  "piguard": {
+    "repo": "leolee99/PIGuard",
+    "revision": "dd78b24e330193a22d2293ac66922dd4f982f563",
+    "files": {
+      "README.md": {
+        "sha256": "edd81d29d8e2b8f1225afc3602e8be5201903e5c184c65d365534471c82811d0",
+        "bytes": 3123
+      },
+      "added_tokens.json": {
+        "sha256": "dc046d04c9b0ada7ae6f1dc89c465801799acdf0c9a6aab8c15a1b2d5ca4e91f",
+        "bytes": 23
+      },
+      "config.json": {
+        "sha256": "f7ab538357be6b11364e4ad225595fe2a96b64f69506387a04e3cae699bac1d0",
+        "bytes": 1062
+      },
+      "model.safetensors": {
+        "sha256": "f90b9806de93b6286cda517300d4b55e5ce2e5ccbf8339dc59be21ca0dd9a25e",
+        "bytes": 737719272
+      },
+      "special_tokens_map.json": {
+        "sha256": "9463f61e1b109a8eb4688b829260d7c6b1e6dff04c98ff7269bb89e2b92369b9",
+        "bytes": 286
+      },
+      "spm.model": {
+        "sha256": "f2d17af198445dafd6bd0a85951e2415b1666baa9604abae9b199306fad7486e",
+        "bytes": 132
+      },
+      "tokenizer.json": {
+        "sha256": "5124ef2ead1a10a717703bc436de7f353da76d6340e4587719b42b1693707964",
+        "bytes": 8656624
+      },
+      "tokenizer_config.json": {
+        "sha256": "557b3d33d3f41b81ad769244e506549e98a1857d41dd58160aacd4d98d710b5a",
+        "bytes": 1284
+      }
+    }
+  },
+  "wolf": {
+    "repo": "patronus-studio/wolf-defender-prompt-injection",
+    "revision": "a77e7b669f079c3ad7e72e4ad10f3bd173ac4f4d",
+    "files": {
+      "LICENSE": {
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "bytes": 11358
+      },
+      "README.md": {
+        "sha256": "e5d59ac18c84bd5f356c1309c2f0c4e8a65bd571d2102e277d5e98fc73eeed3f",
+        "bytes": 21569
+      },
+      "config.json": {
+        "sha256": "3c584c1079d46a3eb5c0dd2aad02d34aaa258da8d70823d415b5b98a868d00a9",
+        "bytes": 2085
+      },
+      "model.safetensors": {
+        "sha256": "e8330cc19b083deb45847d873a69bc840cd8913b62a631289e2c034fa5b6cf3b",
+        "bytes": 1230141424
+      },
+      "tokenizer.json": {
+        "sha256": "7e426c3929b44e6ab4c931770b5f22b913280633f5a1c67c81e9ad64decef55c",
+        "bytes": 34363287
+      },
+      "tokenizer_config.json": {
+        "sha256": "14b147f2a4f939d9b12ab36e9633917040dd948fa78ce283b03402e4cf2c9cba",
+        "bytes": 574
+      }
+    }
+  }
+}

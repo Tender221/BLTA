@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+# Hash-verified research inputs must survive Windows/Linux checkouts byte-for-byte.
+data/** -text
+third_party/** -text
+tests/archived_wolf_order.* -text
+input_manifest.json -text
+*.npz -text
+*.png -text

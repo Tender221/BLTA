@@ -1,0 +1,50 @@
+{
+  "source_revisions": {
+    "tau3": "dd8757d4c8791dad7b3cdaf02a105a3d5f9d86bd",
+    "injecagent": "f19c9f2c79a41046eb13c03c51a24c567a8ffa07"
+  },
+  "raw_unique_calls": 5571,
+  "normal_outputs": 4966,
+  "injected_outputs": 2200,
+  "excluded_calls": 6,
+  "groups": {
+    "retail::get_user_details": 500,
+    "retail::get_order_details": 1000,
+    "retail::get_product_details": 50,
+    "retail::get_item_details": 591,
+    "retail::find_user_id_by_email": 500,
+    "retail::list_all_product_types": 1,
+    "airline::get_user_details": 500,
+    "airline::get_reservation_details": 1213,
+    "airline::search_direct_flight": 610,
+    "airline::list_all_airports": 1
+  },
+  "attacked_groups": {
+    "retail::get_user_details": 400,
+    "retail::get_order_details": 400,
+    "retail::get_product_details": 200,
+    "retail::get_item_details": 400,
+    "airline::get_user_details": 400,
+    "airline::get_reservation_details": 400
+  },
+  "missing_text_fields": {
+    "retail::get_item_details": 78
+  },
+  "payload_pool_sizes": {
+    "direct_harm": 30,
+    "data_stealing": 32
+  },
+  "plan_sha256": "efbd0233b80649d2497d883a400b8f19a2e4bcce4c21b3d3375d77e2ee58cf2a",
+  "data": {
+    "clean": {
+      "file": "clean.jsonl",
+      "rows": 4966,
+      "sha256": "56b6a801fef5b10c88f1452cd5843509191dc07c25cfdad6db9c8ee6d7364d55"
+    },
+    "injected": {
+      "file": "injected.jsonl",
+      "rows": 2200,
+      "sha256": "ad3c16a07ea21c12153cc4bec64597b2d23ad689c8ba48c37d9616a0fafd7d34"
+    }
+  }
+}
