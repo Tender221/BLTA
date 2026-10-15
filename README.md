@@ -9,8 +9,6 @@ source normalization, readout and source-calibrated threshold stay fixed.
 
 ![BLTA method overview](assets/BLTA_framework.png)
 
-*Conceptual illustration created with AI assistance. The density curves are
-schematic, not empirical estimates.*
 
 ## Quick start
 
